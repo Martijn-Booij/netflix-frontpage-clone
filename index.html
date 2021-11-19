@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Netflix-clone</title>
+</head>
+<body class="bg-black">
+    <div class="bg-cover border-gray-900 border-b-8" style="background-image: url('images/netflix-background.jpg');">
+        <!--Header-->
+        <div class="text-white bg-black bg-opacity-50">
+            <div class="w-full h-24 flex justify-between">
+                <svg class="w-48 ml-10 fill-current text-red-700" viewBox="0 0 111 30" class="svg-icon svg-icon-netflix-logo" focusable="false"><g id="netflix-logo"><path d="M105.06233,14.2806261 L110.999156,30 C109.249227,29.7497422 107.500234,29.4366857 105.718437,29.1554972 L102.374168,20.4686475 L98.9371075,28.4375293 C97.2499766,28.1563408 95.5928391,28.061674 93.9057081,27.8432843 L99.9372012,14.0931671 L94.4680851,-5.68434189e-14 L99.5313525,-5.68434189e-14 L102.593495,7.87421502 L105.874965,-5.68434189e-14 L110.999156,-5.68434189e-14 L105.06233,14.2806261 Z M90.4686475,-5.68434189e-14 L85.8749649,-5.68434189e-14 L85.8749649,27.2499766 C87.3746368,27.3437061 88.9371075,27.4055675 90.4686475,27.5930265 L90.4686475,-5.68434189e-14 Z M81.9055207,26.93692 C77.7186241,26.6557316 73.5307901,26.4064111 69.250164,26.3117443 L69.250164,-5.68434189e-14 L73.9366389,-5.68434189e-14 L73.9366389,21.8745899 C76.6248008,21.9373887 79.3120255,22.1557784 81.9055207,22.2804387 L81.9055207,26.93692 Z M64.2496954,10.6561065 L64.2496954,15.3435186 L57.8442216,15.3435186 L57.8442216,25.9996251 L53.2186709,25.9996251 L53.2186709,-5.68434189e-14 L66.3436123,-5.68434189e-14 L66.3436123,4.68741213 L57.8442216,4.68741213 L57.8442216,10.6561065 L64.2496954,10.6561065 Z M45.3435186,4.68741213 L45.3435186,26.2498828 C43.7810479,26.2498828 42.1876465,26.2498828 40.6561065,26.3117443 L40.6561065,4.68741213 L35.8121661,4.68741213 L35.8121661,-5.68434189e-14 L50.2183897,-5.68434189e-14 L50.2183897,4.68741213 L45.3435186,4.68741213 Z M30.749836,15.5928391 C28.687787,15.5928391 26.2498828,15.5928391 24.4999531,15.6875059 L24.4999531,22.6562939 C27.2499766,22.4678976 30,22.2495079 32.7809542,22.1557784 L32.7809542,26.6557316 L19.812541,27.6876933 L19.812541,-5.68434189e-14 L32.7809542,-5.68434189e-14 L32.7809542,4.68741213 L24.4999531,4.68741213 L24.4999531,10.9991564 C26.3126816,10.9991564 29.0936358,10.9054269 30.749836,10.9054269 L30.749836,15.5928391 Z M4.78114163,12.9684132 L4.78114163,29.3429562 C3.09401069,29.5313525 1.59340144,29.7497422 0,30 L0,-5.68434189e-14 L4.4690224,-5.68434189e-14 L10.562377,17.0315868 L10.562377,-5.68434189e-14 L15.2497891,-5.68434189e-14 L15.2497891,28.061674 C13.5935889,28.3437998 11.906458,28.4375293 10.1246602,28.6868498 L4.78114163,12.9684132 Z" id="Fill-14"></path></g></svg>
+                <div class="self-center mr-10 grid grid-cols-2 gap-5">
+                    <select class="border-2 bg-transparent rounded-md p-1" name="select" id="select">
+                        <option value="Nederlands">Nederlands</option>
+                        <option value="English">English</option>
+                    </select>
+                    <button class="rounded-md bg-red-700 hover:bg-red-900">Inloggen</button>
+                </div>
+            </div>
+        </div>
+        <!--End header-->
+        <!--first part-->
+        <div class="flex items-center pb-44 bg-black bg-opacity-50">
+            <div class="mx-auto mt-36 w-2/4 text-center text-white p-10">
+                <h1 class="text-6xl font-bold">Onbeperkt series, films en meer kijken.</h1>
+                <h2 class="text-2xl m-4">Kijk waar je wilt. Altijd opzegbaar.</h2>
+                <p class="mb-2">Klaar om te kijken? Voer je e-mailadres in om je lidmaatschap te starten of te hernieuwen.</p>
+                <div class="flex flex-row h-12">
+                    <input class="h-auto w-3/6 ml-auto p-3 text-black" type="email" placeholder="Emailadres">
+                    <button class="bg-red-700 hover:bg-red-900 h-auto min-w-max w-1/6 mr-auto text-sm md:text-lg p-2">Aan de slag ></button>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!--end first part-->
+        <!--Second part-->
+    <div class="flex items-center px-80 border-gray-900 border-b-8">
+        <div class="text-white font-bold p-36">
+            <div class="w-1/2 float-left self-center">
+                <h1 class="text-5xl">Kijk op je tv.</h1>
+                <h2 class="text-2xl">Kijk op je smart-tv's, Playstation, Xbox, Chromecast, Apple TV, blu-rayspelers en meer.</h2>
+            </div>
+            <div class="float-right w-1/3 self-center ">
+                <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png">
+            </div>
+        </div>
+    </div>
+        <!--end second part-->
+        <!--third part-->
+        <div class="flex items-center px-80 border-gray-900 border-b-8">
+            <div class="text-white font-bold p-36">
+                <div class="w-1/2 float-right self-center">
+                    <h1 class="text-5xl">Kijk overal.</h1>
+                    <h2 class="text-2xl">Stream onbeperkt series en films op je telefoon, tablet, laptop en tv, zonder meer te betalen.</h2>
+                </div>
+                <div class="float-left w-1/3 self-center ">
+                    <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile.png">
+                </div>
+            </div>
+        </div>        
+        <!--end third part-->
+        <!--fourth part-->
+        <div class="flex items-center px-80 border-gray-900 border-b-8" >
+            <div class="text-white font-bold p-36">
+                <div class="w-1/2 float-left self-center">
+                    <h1 class="text-5xl">Maak profielen voor kids.</h1>
+                    <h2 class="text-2xl">Laat kids op avontuur gaan met hun favoriete personages in een omgeving die speciaal voor hen is gemaakt. Gratis bij je lidmaatschap.</h2>
+                </div>
+                <div class="float-right w-1/3 self-center ">
+                    <img class="" src="https://occ-0-769-768.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABfHU6rUGPM-0fCFyBI9QmkWq2Gde4IN73Rd3fPa5OZwCMTevvHHH4I1cJcvKPU2xBsGT4NSOMRpRA9L4IVQrGZHaCPFo.png?r=bb1">
+                </div>
+            </div>
+        </div>     
+        <!--end fourth part-->
+        <!--FAQ-->
+        <div class="text-white py-16 border-gray-900 border-b-8">
+            <h1 class="text-center text-5xl mb-5">Veelgestelde vragen</h1>
+            <div class="flex flex-col items-center text-4xl text-left">
+                <button class="bg-gray-700 w-2/4 p-4 m-1 text-left">Wat kan ik kijken op netflix?</button>
+                <button class="bg-gray-700 w-2/4 p-4 m-1 text-left">Wat is Netflix?</button>
+                <button class="bg-gray-700 w-2/4 p-4 m-1 text-left">Hoeveel kost Netflix?</button>
+                <button class="bg-gray-700 w-2/4 p-4 m-1 text-left">Waar kan ik kijken?</button>
+                <button class="bg-gray-700 w-2/4 p-4 m-1 text-left">Hoe kan ik opzeggen?</button>
+                <button class="bg-gray-700 w-2/4 p-4 m-1 text-left">Is Netflix geschikt voor kids?</button>
+            </div>
+
+            <div class="mx-52 mt-10 text-center">
+            <p class="mb-2">Klaar om te kijken? Voer je e-mailadres in om je lidmaatschap te starten of te hernieuwen.</p>
+                <div class="flex flex-row h-12">
+                    <input class="h-auto w-3/6 ml-auto p-3 text-black" type="email" placeholder="Emailadres">
+                    <button class="bg-red-700 hover:bg-red-900 h-auto min-w-max w-1/6 mr-auto text-sm md:text-lg">Aan de slag ></button>
+                </div>
+            </div>
+        </div>
+        <!--end FAQ-->
+        <!--footer-->
+        <div class="text-gray-500 grid grid-cols-4 mx-52 my-24 text-sm">
+            <div class="col-span-4 pb-3"><p>Vragen? Bel 0800-022-9647</p></div>
+            <div>
+                <p class="p-1">Veel gestelde vragen</p>
+                <p class="p-1">Relaties met investeerders</p>
+                <p class="p-1">Hoe kun je Netflix kijken?</p>
+                <p class="p-1">Bedrijfsgegevens</p>
+                <p class="p-1">Alleen op Netflix</p>
+            </div>
+            <div>
+                <p class="p-1">Helpcentrum</p>
+                <p class="p-1">Vacatures</p>
+                <p class="p-1">Gebruiksvoorwaarden</p>
+                <p class="p-1">Contact opnemen</p>
+            </div>
+            <div>
+                <p class="p-1">Account</p>
+                <p class="p-1">Cadeaubonnen gebruiken</p>
+                <p class="p-1">Privacy</p>
+                <p class="p-1">Snelheidstest</p>
+            </div>
+            <div>
+                <p class="p-1">Mediacenter</p>
+                <p class="p-1">Cadeaubonnen kopen</p>
+                <p class="p-1">Cookievoorkeuren</p>
+                <p class="p-1">Wettelijke bepalingen</p>
+            </div>
+        </div>
+        <!--end footer-->
+</body>
+</html>
